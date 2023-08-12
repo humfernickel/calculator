@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="files.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <div class="calculator">
+            <div id="top-line"></div>
+            <div class="calc">
+                <div class="top">
+                    <div class="display">
+                        <div class="dis-num">
+                        </div>
+                    </div>
+                    <div class="top-left">
+                        <h3>TEXAS INSTRUMENTS</h3>
+                        <div class="solar-panel">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <div class="top-right">
+                        <h1>TI-108</h1>
+                    </div>
+                </div>
+                <div class="inputs">
+                    <div class="numbers">
+                        <button type="button" class="op" style="font-size: 1.5em">+/−</button>
+                        <button type="button" class="op" style="font-size: 1.5em; line-height: 1.5em">√ </button>
+                        <button type="button" class="op" style="font-size: 1.3em">%</button>
+                        <button type="button" class="op">MRC</button>
+                        <button type="button" class="op">M−</button>
+                        <button type="button" class="op">M+</button>
+
+                        <button type="button" class="number" data-key='1'>1</button>
+                        <button type="button" class="number" data-key='2'>2</button>
+                        <button type="button" class="number" data-key='3'>3</button>
+                        <button type="button" class="number" data-key='4'>4</button>
+                        <button type="button" class="number" data-key='5'>5</button>
+                        <button type="button" class="number" data-key='6'>6</button>
+                        <button type="button" class="number" data-key='7'>7</button>
+                        <button type="button" class="number" data-key='8'>8</button>
+                        <button type="button" class="number" data-key='9'>9</button>
+                        <button type="button" class="clear" data-key='clear'>ON/C</button>
+                        <button type="button" class="number" data-key='0'>0</button>
+                        <button type="button" class="number" data-key='.'>.</button>
+                    </div>
+                    <div class="operations">
+                        <button type="button" class="op" id="d">÷</button>
+                        <button type="button" class="op" id="m">×</button>
+                        <button type="button" class="op" id="s">−</button>
+                        <button type="button" class="op" id="add">+</button>
+                        <button type="button" class="equal" id="equal">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- <img src="assets/calc-ref2.jpg" style="width: 400px;" alt="">
+    <img src="assets/vibrant-calc.jpg" alt=""> -->
+</body>
+
+</html>

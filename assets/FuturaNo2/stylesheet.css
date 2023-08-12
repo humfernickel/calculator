@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'FuturaNo2DEE';
+    src: url('FuturaNo2DEE-Book.eot');
+    src: local('FuturaNo2DEE'), local('FuturaNo2DEE-Book'),
+        url('FuturaNo2DEE-Book.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNo2DEE-Book.woff') format('woff'),
+        url('FuturaNo2DEE-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaNo2SCDEEBoo';
+    src: url('FuturaNo2SCDEE-Book.eot');
+    src: local('FuturaNo2SCDEEBoo'), local('FuturaNo2SCDEE-Book'),
+        url('FuturaNo2SCDEE-Book.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNo2SCDEE-Book.woff') format('woff'),
+        url('FuturaNo2SCDEE-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaNo2DEEMed';
+    src: url('FuturaNo2DEE-Medi.eot');
+    src: local('FuturaNo2DEEMed'), local('FuturaNo2DEE-Medi'),
+        url('FuturaNo2DEE-Medi.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNo2DEE-Medi.woff') format('woff'),
+        url('FuturaNo2DEE-Medi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaNo2SCDEEMed';
+    src: url('FuturaNo2SCDEE-Medi.eot');
+    src: local('FuturaNo2SCDEEMed'), local('FuturaNo2SCDEE-Medi'),
+        url('FuturaNo2SCDEE-Medi.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNo2SCDEE-Medi.woff') format('woff'),
+        url('FuturaNo2SCDEE-Medi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
