@@ -16,6 +16,7 @@
     <main class="container">
         <div class="calculator">
             <div id="top-line"></div>
+            <div id="bottom-line"></div>
             <div class="calc">
                 <div class="top">
                     <div class="display">
@@ -37,13 +38,12 @@
                 </div>
                 <div class="inputs">
                     <div class="numbers">
-                        <button type="button" class="op" style="font-size: 1.5em">+/−</button>
-                        <button type="button" class="op" style="font-size: 1.5em; line-height: 1.5em">√ </button>
-                        <button type="button" class="op" style="font-size: 1.3em">%</button>
+                        <button type="button" class="number oped" data-key = 'neg'style="font-size: 1.5em;">+/−</button>
+                        <button type="button" class="op" id= 'p' style="font-size: 1.5em; line-height: 1.5em">^</button>
+                        <button type="button" class="number oped" data-key = 'per'style="font-size: 1.3em">%</button>
                         <button type="button" class="op">MRC</button>
                         <button type="button" class="op">M−</button>
                         <button type="button" class="op">M+</button>
-
                         <button type="button" class="number" data-key='1'>1</button>
                         <button type="button" class="number" data-key='2'>2</button>
                         <button type="button" class="number" data-key='3'>3</button>
@@ -53,7 +53,7 @@
                         <button type="button" class="number" data-key='7'>7</button>
                         <button type="button" class="number" data-key='8'>8</button>
                         <button type="button" class="number" data-key='9'>9</button>
-                        <button type="button" class="clear" data-key='clear'>ON/C</button>
+                        <button type="button" class="oped" data-key='clear'>ON/C</button>
                         <button type="button" class="number" data-key='0'>0</button>
                         <button type="button" class="number" data-key='.'>.</button>
                     </div>
@@ -62,7 +62,7 @@
                         <button type="button" class="op" id="m">×</button>
                         <button type="button" class="op" id="s">−</button>
                         <button type="button" class="op" id="add">+</button>
-                        <button type="button" class="equal" id="equal">=</button>
+                        <button type="button" class="oped" id="equal">=</button>
                     </div>
                 </div>
             </div>
